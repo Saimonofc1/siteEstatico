@@ -4,6 +4,7 @@
 
 }
 
+<<<<<<< HEAD
 /* Navbar styles */
 .navbar {
   list-style-type: none;
@@ -74,6 +75,16 @@ body {
     background-size: cover;
     background-position: center;
     z-index: -1;
+=======
+body {
+  background-image: url(./img/fundoprincipal.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+
+  background-position: center;
+  z-index: -1;
+
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -81,6 +92,7 @@ body {
 
   
   header {
+<<<<<<< HEAD
 
     background-image: url(./img/fundoprincipal.jpg);
     background-repeat: no-repeat ;
@@ -90,6 +102,15 @@ body {
     padding: 10px;
   }
     
+=======
+  background-image: url(./img/fundoprincipal.jpg);
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+    color: #fff;
+    padding: 10px;
+  }
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
   #main-heading {
     
     color: #fff;
@@ -113,7 +134,46 @@ body {
     text-shadow: black 0.1em 0.1em 0.2em;
   }
   
+<<<<<<< HEAD
 
+=======
+  nav {
+    
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin-top: 20px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 1px 75px
+   
+  }
+  
+  nav a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+   
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  
+  nav a:hover {
+    color: #f5a623;
+  }
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
   
   main {
     padding: 20px;
@@ -122,6 +182,7 @@ body {
   section {
     margin-bottom: 40px;
   }
+<<<<<<< HEAD
 
   .trigger{
       display: inline-block;
@@ -311,6 +372,8 @@ transform: scale(1.0);
  
 
 
+=======
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
   .btn-saiba-mais {
     display: inline-block;
     background-color: #333;
@@ -339,6 +402,12 @@ transform: scale(1.0);
   }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
   h2 {
     font-size: 28px;
     margin-bottom: 10px;
@@ -421,15 +490,23 @@ transform: scale(1.0);
     color: #666;
   }
   
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
   p {
     font-size: 18px;
     line-height: 1.5;
   }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
   footer {
     background-color: #333;
     color: #fff;
@@ -443,3 +520,32 @@ transform: scale(1.0);
   
 
 
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 768px) {
+    /* Reduz a fonte dos títulos */
+    h2 {
+      font-size: 24px;
+    }
+  
+    /* Reduz a fonte dos parágrafos */
+    p {
+      font-size: 16px;
+    }
+  
+    /* Alinha a navbar à esquerda e oculta o texto dos itens */
+    nav {
+      justify-content: flex-start;
+    }
+  
+    nav ul {
+      display: none;
+    }
+    
+    nav button {
+      display: block;
+    }
+  
+    
+  }
+>>>>>>> 18ec303d1ef8005ae4d0423988ff3ecebbc309bd
